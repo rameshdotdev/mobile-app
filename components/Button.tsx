@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
 import React from "react";
 
 interface ButtonProps {
@@ -28,5 +28,3 @@ const Button: React.FC<ButtonProps> = ({ title, onPress }) => {
 };
 
 export default Button;
-
-const styles = StyleSheet.create({});

@@ -27,9 +27,7 @@ const BackBtn: React.FC<AppLayoutHeaderProps> = ({
           />
         </TouchableOpacity>
       )}
-      <Text className="text-white text-[25px] font-medium leading-[16px] ml-4">
-        {title}
-      </Text>
+      <Text className="text-white text-[25px] font-medium ml-4">{title}</Text>
     </View>
   );
 };

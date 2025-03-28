@@ -167,7 +167,7 @@ const MedicationReminderScreen: React.FC = () => {
                 />
               </View>
               <View className="flex-1">
-                <Text className="text-[21px] font-medium">{item.name}</Text>
+                <Text className="text-[20px] font-medium">{item.name}</Text>
                 <Text className="text-[18px] leading-[20px] text-gray-500">
                   Take: {item.take}
                 </Text>
